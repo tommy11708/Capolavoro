@@ -44,15 +44,15 @@ export default function Navbar() {
             <div className="relative bg-red flex flex-row items-center">
                 <svg className="font-4xl color-white m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path opacity="0.02" fill="rgb(0, 0, 0)" d="M348.8 32C340.7 46.1 336 62.5 336 80l0 16-272 0 0 224 272 0 0 64-272 0c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l284.8 0zM336 432c0 17.5 4.7 33.9 12.8 48L120 480c-13.3 0-24-10.7-24-24s10.7-24 24-24l216 0zM432 32l96 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-352c0-26.5 21.5-48 48-48zm24 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm56 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
                 <div className="ml-4 flex flex-col">
-                    <h1 className="text-4xl font-bold text-white">Capolavoro</h1>
+                    <Link to="/" className="no-underline">
+                     <h1 className="text-4xl font-bold text-white cursor-pointer">Capolavoro</h1>
+                    </Link>
                     <h2 className="text-sm text-white">Tommaso Gironi</h2>
                 </div>
             </div>
             <div className=" flex items-center">
                 <ul className="relative flex flex-row gap-3 items-center text-white text-lg">
-                    <li className="no-underline px-8 border-r-1 border-blue-400">
-                        <Link to="/">Home</Link>
-                        </li>
+                    
                     <li className=" no-underline px-8 border-r-1 border-blue-400"><Link to="/pc">PC</Link></li>
                     <li id="dropdownNvbarButton" ref={dropdownRef} onClick={handleMouseEnter} onMouseEnter={handleMouseEnter}
                         className="relative px-8">
