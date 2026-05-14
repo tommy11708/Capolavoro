@@ -17,22 +17,22 @@ export default function Fase3() {
           <div className="text-white-30 p-10 leading-relaxed mb-10">
             È praticamente fatta... il pc è montato... al primo avvio non è esploso... non ha fatto saltare la luce in casa... sembra tutto perfetto, e ora bisogna solo installare il sistema operativo: il mio caro e odiato Windows 11. <br>
             </br>
-            L'operazione non è difficie: <br>
+            L'operazione non è difficile: <br>
             </br><br>
             </br>
-            - scaricare l'ISO di installazione di Windows 11<br>
+            - da un altro PC si scarica l'ISO di installazione di Windows 11<br>
             </br>
-            - preparare una chiavetta USB con capacità minore di 32Gb in quanto va rigorosamente formattata in formato FAT32<br>
+            - si prepara una chiavetta USB con capacità minore di 32Gb in quanto va rigorosamente formattata in formato FAT32<br>
             </br>
-            - inserire la cartella estratta scaricata da internet in precedenza nella chiavetta<br>
+            - si sposta la cartella estratta scaricata da internet in precedenza nella chiavetta<br>
             </br>
-            - inserire la chiavetta in una delle porte USB nel pannello posteriore della scheda madre a PC spento<br>
+            - si inserisce la chiavetta in una delle porte USB nel pannello posteriore della scheda madre a PC spento<br>
             </br>
-            - avviare il PC entrando nel bios cliccando il tasto indicato nella schermata di avvio<br>
+            - si avvia il PC entrando nel bios cliccando il tasto indicato nella schermata di avvio<br>
             </br>
-            - impostare come dispositivo di avvio la chiavetta con l'ISO e riavviare<br>
+            - si imposta come dispositivo di avvio la chiavetta con l'ISO e riavviare<br>
             </br>
-            - seguire la procedura di installazione fino all'avvio di windows home
+            - e si segue la procedura di installazione fino all'avvio di windows home
           </div>
           <div className="flex justify-center mb-10">
             <img
@@ -166,7 +166,7 @@ export default function Fase3() {
 
             {/*app config*/}
       <section className="p-8">
-        <div className="max-w-7xl mt-15  mx-auto border-2 rounded-3xl border bg-white/10">
+        <div className="max-w-7xl mb-20 mt-15  mx-auto border-2 rounded-3xl border bg-white/10">
           <div className="flex items-center">
           </div>
           <div className="text-white-30 p-10 leading-relaxed mb-8">
