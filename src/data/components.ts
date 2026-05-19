@@ -49,7 +49,7 @@ export const components: PCComponent[] = [
     icon: "🖥️",
     color: "linear-gradient(135deg, #60a5fa 0%, #590ee4 100%)",
     description:
-      `La scheda madre è la base alla quale tutto il resto si connette, proprio per questo viene chiamato così, gli altri componenti si chiamerebbero "schede figlie".
+      `La scheda madre è la base alla quale tutto il resto si connette, proprio per questo viene chiamata così, gli altri componenti si chiamerebbero "schede figlie".
        Questa in particolare offre una solidissima base per processori AMD, supporti per memorie veloci, connettività di buon livello e un sistema di dissipazione robusto. `, 
     specs: [
       { key: "Socket", value: "AM5" },
@@ -100,7 +100,7 @@ export const components: PCComponent[] = [
     icon: "💾",
     color: "linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%)",
     description:
-      `La RAM è la memoria a breve termine del PC, ci vengono caricati tutti i dati dei programmi in esecuzone, la quantità di programmi che si possono tenere aperti, la fluidità del sistema e la velocità dei caricamenti sono proporzionali alla quantità e alla frequenza della RAM.
+      `La RAM è la memoria a breve termine del PC, ci vengono caricati tutti i dati dei programmi in esecuzione, la quantità di programmi che si possono tenere aperti, la fluidità del sistema e la velocità dei caricamenti sono proporzionali alla quantità e alla frequenza della RAM.
        Le Lexar Ares offrono lo "sweet spot": 32 GB di capacità, 6000 MT/s di frequenza, latenza CL30 e il supporto ad alcune tecnologie come EXPO che le rende eccellenti per sistemi basati su CPU AMD.`,
     specs: [
       { key: "tipo", value: "DDR5" },
@@ -146,7 +146,7 @@ export const components: PCComponent[] = [
     description:
     `Non è molto condivisa questa idea, ma per me questo componente è quasi importante quanto la CPU, senza di questo il PC non si accende nemmeno in quanto fornisce l'energia a tutto il sistema, e deve garantirne una certa quantità minima con stabilità.
      Gli alimentatori possono avere diverse certificazioni, ho optato per una fascia alta, cioè la 80 Plus Gold, perchè alla fine dei giochi, se salta la PSU, il PC le viene dietro, e preferirei evitarlo.
-     Oltretutto offre Protezione da Sovracorrente (OCP) e Transient Voltage Suppressors (TVS), un designi completamente modulare che mi ha aiutato in assemblaggio, ma anche questo, lo lascio per dopo.`,  
+     Oltretutto offre Protezione da Sovracorrente (OCP) e Transient Voltage Suppressors (TVS), un design completamente modulare che mi ha aiutato in assemblaggio, ma anche questo, lo lascio per dopo.`,  
     specs: [
       { key: "wattaggio", value: "850 W" },
       { key: "classe di efficienza", value: "80 Plus Gold" },
@@ -166,7 +166,7 @@ export const components: PCComponent[] = [
     icon: "💿",
     color: "linear-gradient(135deg, #4ade80 0%, #059669 100%)",
     description:
-    `L'SSD è la memoria a lungo termine del PC, ci si intalla tutto: il sistema operativo, gli applicativi, i giochi, i file... tutto. 
+    `L'SSD è la memoria a lungo termine del PC, ci si installa tutto: il sistema operativo, gli applicativi, i giochi, i file... tutto. 
      Ho optato per questo modello date le prestazioni elevate grazie all'interfaccia PCIe Gen 4 che mi aiuta a ridurre i tempi di molti processi stando dietro al processore.
      Oltretutto è dotato di 1 TB di spazio, più che sufficiente per il mio utilizzo.`,
     specs: [
@@ -190,7 +190,7 @@ export const components: PCComponent[] = [
     color: "linear-gradient(135deg, #f472b6 0%, #c026d3 100%)",
     description:
       `Sono fondamentali per non soffocare il PC nel suo stesso calore, permettono di far circolare l'aria fresca all'interno del case e di eliminare quella calda generata dai componenti.
-       La thermalright è considerata spesso la salvezza dei PC assembler: offre prestazioni elevata ella metà del prezzo dei competitors, motivo per il quale la scielta è stata semplice.`,
+       La thermalright è considerata spesso la salvezza dei PC assembler: offre prestazioni elevate alla metà del prezzo dei competitors, motivo per il quale la la scelta è stata semplice.`,
       specs: [
       { key: "formato", value: "120 mm" },
       { key: "numero", value: "7×" },
@@ -209,8 +209,8 @@ export const components: PCComponent[] = [
     icon: "🖥️",
     color: "linear-gradient(135deg, #9dff41 0%, #7dfa43 100%)",
     description:
-      `Sono molto belli tutti i componenti, ma in aria non si può fissare nulla, quindi serve un alloggiamento che riesca a contenerli e garantirne il flusso d'aria necessario proteggendoli dalla polvere con filtri: il Case.
-       Questo modello in particolare mi ha permesso di incastrare tutto con "facilità", offre molto spazio utile all'assemblaggio, alla gestione dei cavi e al flussio d'aria.
+      `Sono molto belli tutti i componenti, ma in aria non si può fissare nulla, quindi serve un alloggiamento che riesca a contenerli e garantirne il flusso d'aria necessario, proteggendoli dalla polvere con filtri: il Case.
+       Questo modello in particolare mi ha permesso di incastrare tutto con "facilità", offre molto spazio utile all'assemblaggio, alla gestione dei cavi e al flusso d'aria.
        Mi ha colpito per il design sobrio, ma tamarro nei suoi pannelli in vetro temperato che mi permettono di vedere gli organi della bestia.`,
       specs: [
       { key: "formato", value: "Full tower" },
